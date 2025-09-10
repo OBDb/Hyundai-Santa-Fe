@@ -5,8 +5,10 @@ test_cases:
     BP_A_ACT_SUP: 0
     BP_A_CMD: 1504.03125
     BP_A_CMD_SUP: 0
-    BP_A_SUP: 1
+    BP_A_SUP: 1.0
     BP_B_ACT_SUP: 0
-    BP_B_CMD_SUP: 1
+    BP_B_CMD_SUP: 1.0
     BP_B_SUP: 0
+    BP_A: null
+    BP_B: null
   response: 7E80741700CBC010000
