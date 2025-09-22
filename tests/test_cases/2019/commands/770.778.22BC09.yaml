@@ -1,0 +1,32 @@
+command_id: 770.778.22BC09
+test_cases:
+- expected_values:
+    HYUNDAI_HL_HIGH: 1
+    HYUNDAI_HL_LOW: 0
+  response: |-
+    778100B62BC09001F0F
+    77821CC00003000AAAA
+- expected_values:
+    HYUNDAI_HL_HIGH: 1
+    HYUNDAI_HL_LOW: 0
+  response: |-
+    778100B62BC09001F0F
+    77821CC0000F000AAAA
+- expected_values:
+    HYUNDAI_HL_HIGH: 1
+    HYUNDAI_HL_LOW: 0
+  response: |-
+    778100B62BC09001F0F
+    77821CC00083000AAAA
+- expected_values:
+    HYUNDAI_HL_HIGH: 1
+    HYUNDAI_HL_LOW: 1
+  response: |-
+    778100B62BC09001F0F
+    77821CC00083030AAAA
+- expected_values:
+    HYUNDAI_HL_HIGH: 1
+    HYUNDAI_HL_LOW: 0
+  response: |-
+    778100B62BC09001F0F
+    77821CC0008F000AAAA
