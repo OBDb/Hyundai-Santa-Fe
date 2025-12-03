@@ -21,10 +21,20 @@ test_cases:
     778100B62BC050F1224
     778210050000000AAAA
 - expected_values:
+    HYUNDAI_HAZARD_SW: 80
+  response: |-
+    778100B62BC050F1224
+    778210050400000AAAA
+- expected_values:
     HYUNDAI_HAZARD_SW: 160
   response: |-
     778100B62BC050F1224
     7782100A0000000AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 160
+  response: |-
+    778100B62BC050F1224
+    7782100A0400000AAAA
 - expected_values:
     HYUNDAI_HAZARD_SW: 240
   response: |-
