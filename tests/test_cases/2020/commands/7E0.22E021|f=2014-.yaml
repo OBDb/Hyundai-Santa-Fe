@@ -1,4 +1,4 @@
-command_id: 7E0.22E021
+command_id: 7E0.22E021|f=2014-
 test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 72.57941

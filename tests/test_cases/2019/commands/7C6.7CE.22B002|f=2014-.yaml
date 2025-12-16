@@ -1,4 +1,4 @@
-command_id: 7C6.7CE.22B002
+command_id: 7C6.7CE.22B002|f=2014-
 test_cases:
 - expected_values:
     SANTAFE_CLUSTER_VOLTAGE: 12.96875
