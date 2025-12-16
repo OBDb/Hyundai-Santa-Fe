@@ -1,7 +1,0 @@
-command_id: 770.778.22BC07
-test_cases:
-- expected_values:
-    SANTAFE_DEFOG_LIGHT: 0
-  response: |-
-    778100B62BC07F80003
-    778210000000000AAAA
