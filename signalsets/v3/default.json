@@ -57,10 +57,10 @@
   ]},
 { "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017, 2018, 2021], "from": 2023 },
   "signals": [
-    {"id": "SANTAFE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 255,                   "unit": "liters"     }, "name": "Fuel level (volume)"},
+    {"id": "SANTAFE_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 127.5,    "div": 2,    "unit": "liters"     }, "name": "Fuel level",         "suggestedMetric": "fuelTankLevel"},
     {"id": "SANTAFE_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,       "div": 12.8, "unit": "volts"      }, "name": "Cluster voltage"},
-    {"id": "SANTAFE_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,              "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
-    {"id": "SANTAFE_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,              "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
+    {"id": "SANTAFE_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,              "unit": "kilometers" }, "name": "Odometer, metric",   "suggestedMetric": "odometer"},
+    {"id": "SANTAFE_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,              "unit": "miles"      }, "name": "Odometer, imperial", "suggestedMetric": "odometer"}
   ]},
 { "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
