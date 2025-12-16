@@ -1,0 +1,26 @@
+command_id: 770.778.22BC08
+test_cases:
+- expected_values:
+    HYUNDAI_TURN_L: 0
+    HYUNDAI_TURN_R: 0
+  response: |-
+    778100B62BC08005090
+    77821B800000018AAAA
+- expected_values:
+    HYUNDAI_TURN_L: 0
+    HYUNDAI_TURN_R: 0
+  response: |-
+    778100B62BC08005090
+    77821B80000011CAAAA
+- expected_values:
+    HYUNDAI_TURN_L: 0
+    HYUNDAI_TURN_R: 0
+  response: |-
+    778100B62BC08005090
+    77821B80002001CAAAA
+- expected_values:
+    HYUNDAI_TURN_L: 0
+    HYUNDAI_TURN_R: 0
+  response: |-
+    778100B62BC08005790
+    77821BC0000091CAAAA
