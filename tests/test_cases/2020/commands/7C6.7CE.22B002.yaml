@@ -2,7 +2,7 @@ command_id: 7C6.7CE.22B002
 test_cases:
 - expected_values:
     SANTAFE_CLUSTER_VOLTAGE: 12.26562
-    SANTAFE_FLI_VOL: 76
+    SANTAFE_FLI_VOL: 38
     SANTAFE_ODO_KM: 0
     SANTAFE_ODO_MI: 63518
   response: |-
@@ -11,7 +11,7 @@ test_cases:
     7CE22F81E0000000000
 - expected_values:
     SANTAFE_CLUSTER_VOLTAGE: 13.28125
-    SANTAFE_FLI_VOL: 86
+    SANTAFE_FLI_VOL: 43
     SANTAFE_ODO_KM: 0
     SANTAFE_ODO_MI: 63513
   response: |-
@@ -20,7 +20,7 @@ test_cases:
     7CE22F8190000000000
 - expected_values:
     SANTAFE_CLUSTER_VOLTAGE: 12.34375
-    SANTAFE_FLI_VOL: 88
+    SANTAFE_FLI_VOL: 44
     SANTAFE_ODO_KM: 0
     SANTAFE_ODO_MI: 63513
   response: |-
@@ -29,7 +29,7 @@ test_cases:
     7CE22F8190000000000
 - expected_values:
     SANTAFE_CLUSTER_VOLTAGE: 12.26562
-    SANTAFE_FLI_VOL: 91
+    SANTAFE_FLI_VOL: 45.5
     SANTAFE_ODO_KM: 0
     SANTAFE_ODO_MI: 63519
   response: |-
@@ -38,7 +38,7 @@ test_cases:
     7CE22F81F0000000000
 - expected_values:
     SANTAFE_CLUSTER_VOLTAGE: 13.20312
-    SANTAFE_FLI_VOL: 93
+    SANTAFE_FLI_VOL: 46.5
     SANTAFE_ODO_KM: 0
     SANTAFE_ODO_MI: 63513
   response: |-
@@ -47,7 +47,7 @@ test_cases:
     7CE22F8190000000000
 - expected_values:
     SANTAFE_CLUSTER_VOLTAGE: 13.28125
-    SANTAFE_FLI_VOL: 95
+    SANTAFE_FLI_VOL: 47.5
     SANTAFE_ODO_KM: 0
     SANTAFE_ODO_MI: 63513
   response: |-
@@ -56,7 +56,7 @@ test_cases:
     7CE22F8190000000000
 - expected_values:
     SANTAFE_CLUSTER_VOLTAGE: 12.26562
-    SANTAFE_FLI_VOL: 101
+    SANTAFE_FLI_VOL: 50.5
     SANTAFE_ODO_KM: 0
     SANTAFE_ODO_MI: 63519
   response: |-
