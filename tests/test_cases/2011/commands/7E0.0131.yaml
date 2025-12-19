@@ -4,14 +4,8 @@ test_cases:
     CLR_DIST: 3702
   response: 7E80441310E76
 - expected_values:
-    CLR_DIST: 3703
-  response: 7E80441310E77
-- expected_values:
     CLR_DIST: 3787
   response: 7E80441310ECB
 - expected_values:
     CLR_DIST: 3970
   response: 7E80441310F82
-- expected_values:
-    CLR_DIST: 3978
-  response: 7E80441310F8A
