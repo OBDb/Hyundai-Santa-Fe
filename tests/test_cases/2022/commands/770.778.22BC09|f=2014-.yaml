@@ -17,4 +17,10 @@ test_cases:
     SANTAFE_HL_LOW: 0
   response: |-
     778100B62BC09301FCF
+    77821CC00083030AAAA
+- expected_values:
+    SANTAFE_HL_HIGH: 0
+    SANTAFE_HL_LOW: 0
+  response: |-
+    778100B62BC09301FCF
     77821CC0008F000AAAA

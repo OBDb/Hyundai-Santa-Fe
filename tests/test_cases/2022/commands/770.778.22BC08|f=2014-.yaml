@@ -17,6 +17,12 @@ test_cases:
     SANTAFE_TURN_R: 0
   response: |-
     778100B62BC08005090
+    77821B800020018AAAA
+- expected_values:
+    SANTAFE_TURN_L: 0
+    SANTAFE_TURN_R: 0
+  response: |-
+    778100B62BC08005090
     77821B80002001CAAAA
 - expected_values:
     SANTAFE_TURN_L: 0
