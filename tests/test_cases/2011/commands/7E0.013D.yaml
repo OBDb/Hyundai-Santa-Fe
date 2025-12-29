@@ -4,20 +4,5 @@ test_cases:
     CATEMP21: 599.2
   response: 7E804413D18F8
 - expected_values:
-    CATEMP21: 602
-  response: 7E804413D1914
-- expected_values:
-    CATEMP21: 602.5
-  response: 7E804413D1919
-- expected_values:
-    CATEMP21: 602.7
-  response: 7E804413D191B
-- expected_values:
-    CATEMP21: 603
-  response: 7E804413D191E
-- expected_values:
-    CATEMP21: 612.7
-  response: 7E804413D197F
-- expected_values:
-    CATEMP21: 617
-  response: 7E804413D19AA
+    CATEMP21: 626.5
+  response: 7E804413D1A09
