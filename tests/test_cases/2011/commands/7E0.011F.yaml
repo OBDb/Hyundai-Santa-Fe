@@ -4,8 +4,8 @@ test_cases:
     RUNTM: 121
   response: 7E804411F0079
 - expected_values:
-    RUNTM: 2561
-  response: 7E804411F0A01
+    RUNTM: 2048
+  response: 7E804411F0800
 - expected_values:
     RUNTM: 5375
   response: 7E804411F14FF
