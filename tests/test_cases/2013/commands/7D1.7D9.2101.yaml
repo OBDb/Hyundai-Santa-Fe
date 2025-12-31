@@ -148,6 +148,7 @@ test_cases:
     SANTAFE_FL_VSS: 43
     SANTAFE_FR_VSS: 43
     SANTAFE_RL_VSS: 43
+    SANTAFE_RR_VSS: 43
   response: |-
     7D910296101DFEBEF09
     7D921040C2B0004E1FF
@@ -182,8 +183,6 @@ test_cases:
 - expected_values:
     SANTAFE_FL_VSS: 40
     SANTAFE_FR_VSS: 42
-    SANTAFE_RL_VSS: 40
-    SANTAFE_RR_VSS: 42
   response: |-
     7D910296101DFEBEF09
     7D921081D294C04E5FF
@@ -278,8 +277,6 @@ test_cases:
 - expected_values:
     SANTAFE_FL_VSS: 0
     SANTAFE_FR_VSS: 0
-    SANTAFE_RL_VSS: 0
-    SANTAFE_RR_VSS: 0
   response: |-
     7D910296101DFEBEF09
     7D9217C0D000001ADFF
@@ -290,8 +287,6 @@ test_cases:
 - expected_values:
     SANTAFE_FL_VSS: 130
     SANTAFE_FR_VSS: 130
-    SANTAFE_RL_VSS: 129
-    SANTAFE_RR_VSS: 130
   response: |-
     7D910296101DFEBEF09
     7D921A825828E04D9FF
@@ -337,8 +332,6 @@ test_cases:
 - expected_values:
     SANTAFE_FL_VSS: 95
     SANTAFE_FR_VSS: 95
-    SANTAFE_RL_VSS: 95
-    SANTAFE_RR_VSS: 95
   response: |-
     7D910296101DFEBEF09
     7D921E8235FC404E5FF
