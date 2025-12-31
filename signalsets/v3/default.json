@@ -145,7 +145,7 @@
     {"id": "SANTAFE_COOLANT_FAN_HIGH_SPEED_1_8", "path": "Movement", "fmt": {"bix": 109, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan high speed, 1.8"},
     {"id": "SANTAFE_COOLANT_FAN_LOW_SPEED_1_8",  "path": "Movement", "fmt": {"bix": 110, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan low speed, 1.8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2010, "from": 2012 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2014 },
   "signals": [
     {"id": "SANTAFE_DPF_REGENERATION_STATE", "path": "Engine", "fmt": {"bix": 207, "len": 1, "max": 1, "unit": "offon" }, "name": "Diesel particulate filter regeneration state"}
   ]},
@@ -247,7 +247,7 @@
     {"id": "SANTAFE_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn, cylinder 3"},
     {"id": "SANTAFE_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E019"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2020 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E019"}, "freq": 1, "dbgfilter": { "to": 2018, "from": 2021 },
   "signals": [
     {"id": "SANTAFE_KNOCK_RETARD_1_E019", "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 0, "min": -191.25, "mul": 0.75, "add": -191.25, "unit": "degrees" }, "name": "Knock retard cylinder 1, alternate"},
     {"id": "SANTAFE_KNOCK_RETARD_2_E019", "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 0, "min": -191.25, "mul": 0.75, "add": -191.25, "unit": "degrees" }, "name": "Knock retard cylinder 2, alternate"},
