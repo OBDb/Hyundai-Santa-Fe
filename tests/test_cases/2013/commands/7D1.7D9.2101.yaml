@@ -147,6 +147,8 @@ test_cases:
 - expected_values:
     SANTAFE_FL_VSS: 43
     SANTAFE_FR_VSS: 43
+    SANTAFE_RL_VSS: 43
+    SANTAFE_RR_VSS: 43
   response: |-
     7D910296101DFEBEF09
     7D921040C2B0004E1FF
@@ -302,6 +304,7 @@ test_cases:
     SANTAFE_FL_VSS: 0
     SANTAFE_FR_VSS: 0
     SANTAFE_RL_VSS: 0
+    SANTAFE_RR_VSS: 0
   response: |-
     7D910296101DFEBEF09
     7D921AC0B000004E6FF
