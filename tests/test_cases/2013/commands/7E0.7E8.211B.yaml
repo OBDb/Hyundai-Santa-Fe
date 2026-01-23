@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.211B
 test_cases:
 - expected_values:
-    SANTAFE_DPF_DIFFERENTIAL_PRESSURE: 6
-  response: 7E804611B000C
+    SANTAFE_DPF_DIFFERENTIAL_PRESSURE: 0
+  response: 7E804611B0000
 - expected_values:
     SANTAFE_DPF_DIFFERENTIAL_PRESSURE: 124
   response: 7E804611B00F8
