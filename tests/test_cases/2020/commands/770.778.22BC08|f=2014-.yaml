@@ -6,3 +6,9 @@ test_cases:
   response: |-
     778100B62BC08005790
     77821BC0000011CAAAA
+- expected_values:
+    SANTAFE_TURN_L: 0
+    SANTAFE_TURN_R: 0
+  response: |-
+    778100B62BC08005790
+    77821BC0000091CAAAA
