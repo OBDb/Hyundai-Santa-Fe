@@ -9,8 +9,8 @@ test_cases:
     7E803411100
     7E9034111AD
 - expected_values:
-    TP: 68.23529
-  response: 7E8034111AE
+    TP: 74.5098
+  response: 7E8034111BE
 - expected_values:
     TP: 67.84314
   response: 7E9034111AD
