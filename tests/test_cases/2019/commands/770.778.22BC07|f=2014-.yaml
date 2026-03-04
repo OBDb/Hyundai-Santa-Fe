@@ -10,3 +10,8 @@ test_cases:
   response: |-
     778100B62BC07F80000
     778210010000000AAAA
+- expected_values:
+    SANTAFE_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC07F80003
+    77821000000C000AAAA
