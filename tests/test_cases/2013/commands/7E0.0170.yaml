@@ -10,3 +10,23 @@ test_cases:
     BP_B_CMD_SUP: 1
     BP_B_SUP: 0
   response: 7E80741700CBC010000
+- expected_values:
+    BP_A_ACT: 0
+    BP_A_ACT_SUP: 0
+    BP_A_CMD: 736.0625
+    BP_A_CMD_SUP: 1
+    BP_A_SUP: 0
+    BP_B_ACT_SUP: 1
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: 7E8074170115C020000
+- expected_values:
+    BP_A_ACT: 0
+    BP_A_ACT_SUP: 1
+    BP_A_CMD: 176.0625
+    BP_A_CMD_SUP: 0
+    BP_A_SUP: 0
+    BP_B_ACT_SUP: 1
+    BP_B_CMD_SUP: 0
+    BP_B_SUP: 0
+  response: '7E80741701216020000'
