@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     RPM: 791
   response: 7E804410C0C5C
+- expected_values:
+    RPM: 2093
+  response: 7E804410C20B4
