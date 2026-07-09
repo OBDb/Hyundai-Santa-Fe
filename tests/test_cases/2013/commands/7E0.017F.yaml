@@ -1,0 +1,7 @@
+command_id: 7E0.017F
+test_cases:
+- expected_values:
+    IDLE_TIME_SUP: 0
+    PTO_TIME_SUP: 0
+    RUN_TIME_SUP: 1
+  response: 7E803417F01
