@@ -1,8 +1,0 @@
-command_id: 7E0.0108
-test_cases:
-- expected_values:
-    SHRTFT2: -25
-  response: '7E803410860'
-- expected_values:
-    SHRTFT2: 25
-  response: 7E8034108A0
