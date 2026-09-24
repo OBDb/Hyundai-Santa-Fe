@@ -1,4 +1,4 @@
-command_id: 7A0.7A8.22C00B|f=2014-
+command_id: 7A0.7A8.22C00B|f=2014;2015;2016;2017;2018;2019;2020;2021;2022;2023
 test_cases:
 - expected_values:
     SANTAFE_TP_FL_PRE21: 32.2
