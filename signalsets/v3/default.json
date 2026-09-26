@@ -1,4 +1,8 @@
-{ "commands": [
+{ "ecu": [
+    { "hdr": "7E0", "type": "engine" },
+    { "hdr": "7E1", "type": "transmission" }
+  ],
+  "commands": [
 { "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "filter": { "from": 2014 }, "dbgfilter": { "to": 2018, "years": [2021, 2023], "from": 2025 },
   "signals": [
     {"id": "SANTAFE_TRUNK",     "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk open?"},
