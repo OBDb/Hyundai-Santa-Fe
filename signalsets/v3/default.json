@@ -409,11 +409,6 @@
     {"id": "SANTAFE_TQ_CONV_SLIP", "path": "Engine",   "fmt": {"bix": 104, "len": 16, "max": 15871.75, "min": -512, "div": 4, "add": -512, "unit": "rpm"     }, "name": "Torque converter slip"},
     {"id": "SANTAFE_ATF_T_7E0",    "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 215,      "min": -40,            "add": -40,  "unit": "celsius" }, "name": "Transmission fluid temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "948001"}, "freq": 5,
-  "signals": [
-    {"id": "SANTAFE_INTERCOOLER_T", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 205, "min": -50,                         "add": -50, "unit": "celsius" }, "name": "Intercooler temperature"},
-    {"id": "SANTAFE_SOOT_LEVEL",    "path": "Engine", "fmt": {"bix": 64, "len": 8, "max": 100,             "mul": 100, "div": 255,             "unit": "unknown" }, "name": "Soot level"}
-  ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "21A0"}, "freq": 10,
   "signals": [
     {"id": "SANTAFE_ATF_TEMP", "path": "Transmission", "fmt": {"bix": 16, "len": 8, "max": 255, "mul": 9, "div": 5, "add": -40, "unit": "fahrenheit" }, "name": "Transmission fluid temperature"}
