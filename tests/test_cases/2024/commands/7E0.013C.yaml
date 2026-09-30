@@ -4,6 +4,9 @@ test_cases:
     CATEMP11: 420.8
   response: 7E804413C1200
 - expected_values:
+    CATEMP11: 459.1
+  response: 7E804413C137F
+- expected_values:
     CATEMP11: 472.7
   response: 7E804413C1407
 - expected_values:
