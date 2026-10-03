@@ -1,0 +1,12 @@
+command_id: 770.778.22BC03|f=2014-
+test_cases:
+- expected_values:
+    SANTAFE_DOOR_FL: 0
+    SANTAFE_DOOR_FR: 0
+    SANTAFE_DOOR_RL: 1
+    SANTAFE_DOOR_RR: 0
+    SANTAFE_HANDBRAKE: 0
+    SANTAFE_TRUNK: 0
+  response: |-
+    778100862BC03D00000
+    778210003AAAAAAAAAA
