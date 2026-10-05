@@ -245,7 +245,7 @@
     {"id": "SANTAFE_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
     {"id": "SANTAFE_ENGINE_OIL_T",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
   "signals": [
     {"id": "SANTAFE_OXYGEN_SENSOR_11",            "path": "Engine",   "fmt": {"bix": 32,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 1 bank 1"},
     {"id": "SANTAFE_OXYGEN_SENSOR_21",            "path": "Engine",   "fmt": {"bix": 48,  "len": 8,  "max": 1.12,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 2 bank 1"},
@@ -256,29 +256,29 @@
     {"id": "SANTAFE_FUEL_INJECTION_TIMING_3",     "path": "Fuel",     "fmt": {"bix": 208, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #3"},
     {"id": "SANTAFE_FUEL_INJECTION_TIMING_4",     "path": "Fuel",     "fmt": {"bix": 224, "len": 16, "blsb": true,  "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 5, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "03"}, "freq": 5, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
   "signals": [
     {"id": "SANTAFE_EXHAUST_GAS_T",                 "path": "Engine", "fmt": {"bix": 368, "len": 8,  "max": 1300,    "min": 99, "mul": 4.709803922,              "add": 99, "unit": "celsius"    }, "name": "Exhaust gas temperature"},
     {"id": "SANTAFE_ODO_LAST_DPF_REGEN",            "path": "Trips",  "fmt": {"bix": 392, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer at last DPF regeneration"},
     {"id": "SANTAFE_DISTANCE_SINCE_LAST_DPF_REGEN", "path": "Trips",  "fmt": {"bix": 424, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Distance since last DPF regeneration"},
     {"id": "SANTAFE_ODO",                           "path": "Trips",  "fmt": {"bix": 456, "len": 32, "max": 4294967,                                "div": 1000,            "unit": "kilometers" }, "name": "Odometer",                             "suggestedMetric": "odometer"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "04"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
   "signals": [
     {"id": "SANTAFE_COOLANT_FAN_HIGH_SPEED_1_8", "path": "Movement", "fmt": {"bix": 109, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan high speed, 1.8"},
     {"id": "SANTAFE_COOLANT_FAN_LOW_SPEED_1_8",  "path": "Movement", "fmt": {"bix": 110, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan low speed, 1.8"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "06"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
   "signals": [
     {"id": "SANTAFE_DPF_REGENERATION_STATE", "path": "Engine", "fmt": {"bix": 207, "len": 1, "max": 1, "unit": "offon" }, "name": "Diesel particulate filter regeneration state"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "07"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "07"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012], "from": 2015 },
   "signals": [
     {"id": "SANTAFE_MAIN_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 96,  "len": 8,  "max": 100,   "mul": 0.392156863, "unit": "liters" }, "name": "Main injection volume"},
     {"id": "SANTAFE_PILOT_INJECTION_QTY", "path": "Engine", "fmt": {"bix": 104, "len": 16, "max": 65535,                     "unit": "liters" }, "name": "Pilot injection volume"},
     {"id": "SANTAFE_POST_INJECTION_QTY",  "path": "Engine", "fmt": {"bix": 128, "len": 16, "max": 65535,                     "unit": "liters" }, "name": "Post injection volume"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "08"}, "freq": 1, "dbgfilter": { "to": 2010, "years": [2012], "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "08"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2010, "years": [2012], "from": 2014 },
   "signals": [
     {"id": "SANTAFE_EMIS_MIS_TOT_1",     "path": "Engine", "fmt": {"bix": 128, "len": 16, "blsb": true, "max": 65535,                  "unit": "scalar" },                                      "name": "Emission relevant misfires total, cylinder 1"},
     {"id": "SANTAFE_EMIS_MIS_TOT_2",     "path": "Engine", "fmt": {"bix": 144, "len": 16, "blsb": true, "max": 65535,                  "unit": "scalar" },                                      "name": "Emission relevant misfires total, cylinder 2"},
@@ -314,7 +314,7 @@
     {"id": "SANTAFE_MIS_CNT_4",      "path": "Engine.Misfires", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #4"},
     {"id": "SANTAFE_MIS_CNT_ALL",    "path": "Engine.Misfires", "fmt": {"bix": 432, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, all cylinders"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "13"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "13"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SANTAFE_TIMING_ADVANCE_1",    "path": "Engine", "fmt": {"bix": 32,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #1"},
     {"id": "SANTAFE_TIMING_ADVANCE_2",    "path": "Engine", "fmt": {"bix": 40,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #2"},
@@ -322,7 +322,7 @@
     {"id": "SANTAFE_TIMING_ADVANCE_4",    "path": "Engine", "fmt": {"bix": 56,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75,           "sign": true, "unit": "degrees"    }, "name": "Timing advance #4"},
     {"id": "SANTAFE_BAROMETRIC_PRESSURE", "path": "Engine", "fmt": {"bix": 312, "len": 8, "max": 127.5,                          "div": 2,               "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "14"}, "freq": 0.25, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "14"}, "freq": 0.25, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SANTAFE_COMMANDED_THROTTLE_ACTUATOR",                 "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 99.6,                 "mul": 0.390625,                                              "unit": "percent" },                "name": "Commanded throttle actuator"},
     {"id": "SANTAFE_THROTTLE_POSITION__1",                        "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 799,    "min": -800,     "mul": 0.0244140625,           "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #1"},
@@ -334,19 +334,19 @@
     {"id": "SANTAFE_REQUESTED_TORQUE",                            "path": "Engine",   "fmt": {"bix": 176, "len": 16, "max": 100,                  "mul": 0.001526,                                              "unit": "percent" },                "name": "Requested torque"},
     {"id": "SANTAFE_THROTTLE_POSITION_SENSOR_VOLTAGE__1",         "path": "Battery",  "fmt": {"bix": 360, "len": 16, "blsb": true, "max": 79,                      "mul": 0.0012207031,                                           "unit": "volts"   },                                             "name": "Throttle position sensor voltage #1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "15"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "15"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SANTAFE_STFT_B1_IDLE", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "blsb": true, "max": 100,   "mul": 0.046875,                  "sign": true, "unit": "percent" }, "name": "Short term fuel % trim, bank 1 idle"},
     {"id": "SANTAFE_STFT_B1",      "path": "Fuel", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 99.99, "mul": 0.0030517578, "add": -100,               "unit": "percent" }, "name": "Short term fuel % trim, bank 1"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "16"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "16"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SANTAFE_KNOCK_RETARD_CYLINDER_1", "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #1"},
     {"id": "SANTAFE_KNOCK_RETARD_CYLINDER_2", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #2"},
     {"id": "SANTAFE_KNOCK_RETARD_CYLINDER_3", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #3"},
     {"id": "SANTAFE_KNOCK_RETARD_CYLINDER_4", "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "17"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "17"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SANTAFE_INTAKE_CAMSHAFT_POSITION_COMMANDED", "path": "Engine", "fmt": {"bix": 32, "len": 8,  "max": 63.5,  "min": -64,              "div": 2,             "sign": true,               "unit": "degrees" },                "name": "Intake camshaft position commanded"},
     {"id": "SANTAFE_INTAKE_CAMSHAFT_POSITION_ACTUAL",    "path": "Engine", "fmt": {"bix": 40, "len": 16, "blsb": true, "max": 255, "min": -256,           "div": 128,               "sign": true,                   "unit": "degrees" },                                            "name": "Intake camshaft position actual"}
@@ -355,7 +355,7 @@
   "signals": [
     {"id": "SANTAFE_CVVT_T", "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 207, "min": -48, "add": -48, "unit": "celsius" }, "name": "Variable valve timing temperature", "description": "Continuously variable valve timing temperature."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "19"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "19"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SANTAFE_TURBO_BOOST_P",           "path": "Engine",  "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 5433,                  "mul": 829.1, "div": 10000,                                   "unit": "unknown" },                                                "name": "Turbo boost pressure"},
     {"id": "SANTAFE_IGN_RETARD_KNOCK_1",      "path": "Engine",  "fmt": {"bix": 104, "len": 8,  "max": 0,     "min": -191.25, "mul": 0.75,                "add": -191.25,               "unit": "degrees" },                "name": "Ignition retard due to knock control 1"},
@@ -376,11 +376,11 @@
     {"id": "SANTAFE_MIN_ADPT_LO_MECH_P",      "path": "Engine",  "fmt": {"bix": 496, "len": 16, "blsb": true, "max": 10.02,                 "mul": 1.53,  "div": 10000,                                   "unit": "volts"   },                                                "name": "Min adaptation value for lower mechanical stop of the boost pressure actuator during engine stop"},
     {"id": "SANTAFE_MIN_ADPT_LO_MECH_STOP_P", "path": "Engine",  "fmt": {"bix": 512, "len": 16, "blsb": true, "max": 10.02,                 "mul": 1.53,  "div": 10000,                                   "unit": "volts"   },                                                "name": "Min adaptation value for lower mechanical stop of the boost pressure actuator during engine running"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "1B"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "1B"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SANTAFE_DPF_DIFFERENTIAL_PRESSURE", "path": "Engine", "fmt": { "len": 16, "max": 32767.5, "div": 2, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "1D"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2014 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "1D"}, "freq": 1, "filter": { "to": 2018 }, "dbgfilter": { "to": 2012, "from": 2014 },
   "signals": [
     {"id": "SANTAFE_MIS_1",     "path": "Engine.Misfires", "fmt": {"bix": 32,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"},
     {"id": "SANTAFE_MIS_2",     "path": "Engine.Misfires", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"},
@@ -436,7 +436,7 @@
     {"id": "SANTAFE_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "nullmin": 0, "unit": "percent" }, "name": "Aux battery state of charge"},
     {"id": "SANTAFE_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "nullmin": 0, "unit": "percent" }, "name": "Aux battery state of health"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E005"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E005"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_GDI_IT_A1", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliseconds" }, "name": "Gasoline direct injection time bank a, 1"},
     {"id": "SANTAFE_GDI_IT_A2", "path": "Engine", "fmt": {"bix": 240, "len": 16, "blsb": true, "max": 6553.5, "div": 10, "unit": "milliseconds" }, "name": "Gasoline direct injection time bank a, 2"},
@@ -475,15 +475,15 @@
     {"id": "SANTAFE_EMISSION_RELEVANT_MISFIRES_TOTAL_ALL_CYLINDERS", "path": "Engine", "fmt": {"bix": 432, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission relevant misfires total all cylinders"},
     {"id": "SANTAFE_CATALYST_DAMAGING_MISFIRES_TOTAL_ALL_CYLINDERS", "path": "Engine", "fmt": {"bix": 448, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Catalyst damaging misfires total all cylinders"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E010"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E010"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_MAF_RATE", "path": "Engine", "fmt": {"bix": 208, "len": 8, "blsb": true, "max": 10.8, "mul": 0.04239, "unit": "unknown" }, "name": "Mass air flow rate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E011"}, "freq": 5, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E011"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_CALC_OIL_T", "path": "Engine", "fmt": {"bix": 304, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Calculated oil temperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E014"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E014"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_CLT_FAN_PWM",         "path": "Engine", "fmt": {"bix": 88,  "len": 16, "max": 99.67,   "mul": 15.21, "div": 10000, "unit": "percent"    }, "name": "Coolant fan PWM"},
     {"id": "SANTAFE_AC_P",                "path": "Engine", "fmt": {"bix": 112, "len": 8,  "max": 3516.45, "mul": 13.79,               "unit": "kilopascal" }, "name": "Air conditioning pressure"},
@@ -496,7 +496,7 @@
     {"id": "SANTAFE_KNOCK_RETARD_3_E019", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 0, "min": -191.25, "mul": 0.75, "add": -191.25, "unit": "degrees" }, "name": "Knock retard cylinder 3, alternate"},
     {"id": "SANTAFE_KNOCK_RETARD_4_E019", "path": "Engine", "fmt": {"bix": 192, "len": 8, "max": 0, "min": -191.25, "mul": 0.75, "add": -191.25, "unit": "degrees" }, "name": "Knock retard cylinder 4, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E01D"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E01D"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_MIS_1_7E0",         "path": "Engine", "fmt": {"bix": 32,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"},
     {"id": "SANTAFE_MIS_2_7E0",         "path": "Engine", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"},
@@ -507,7 +507,7 @@
     {"id": "SANTAFE_MIS_HARMFUL_CAT_3", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst, cylinder 3"},
     {"id": "SANTAFE_MIS_HARMFUL_CAT_4", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst, cylinder 4"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E020"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E020"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_INT_CAM_POS", "path": "Engine", "fmt": {"bix": 72, "len": 16, "blsb": true, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "degrees" }, "name": "Intake camshaft position"},
     {"id": "SANTAFE_EXH_CAM_POS", "path": "Engine", "fmt": {"bix": 88, "len": 16, "blsb": true, "max": 255, "min": -256, "div": 128, "sign": true, "unit": "degrees" }, "name": "Exhaust camshaft position"}
@@ -520,7 +520,7 @@
     {"id": "SANTAFE_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 199.99, "min": -200, "mul": 0.00610352,  "sign": true, "nullmin": -200, "unit": "percent"    }, "name": "Waste gate position"},
     {"id": "SANTAFE_WG_SP",   "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 199.99, "min": -200, "mul": 0.00610352,  "sign": true, "nullmin": -200, "unit": "percent"    }, "name": "Waste gate set point"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E023"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E023"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_FUEL_P_ACT",           "path": "Fuel",   "fmt": {"bix": 32,  "len": 16, "blsb": true,   "max": 347774.5845,                      "mul": 53067, "div": 10000,                                 "unit": "unknown"      },                                "name": "Fuel pressure, actual"},
     {"id": "SANTAFE_FUEL_P_SET_POINT_7E0", "path": "Fuel",   "fmt": {"bix": 48,  "len": 16, "blsb": true,   "max": 347774.5845,                      "mul": 53067, "div": 10000,                                 "unit": "unknown"      },                                "name": "Fuel pressure, set point"},
@@ -539,11 +539,11 @@
     {"id": "SANTAFE_INJ_IMPULSE_3_CYL_4",  "path": "Engine", "fmt": {"bix": 376, "len": 16, "blsb": true,   "max": 2621.4,                                         "div": 25,                                    "unit": "milliseconds" },                                "name": "Injection impulse 3, cylinder 4"},
     {"id": "SANTAFE_CYCLE_FUEL_CONS",      "path": "Fuel",   "fmt": {"bix": 416, "len": 8,  "max": 21.6189,                     "mul": 8.478,        "div": 100,                               "unit": "unknown" },                     "name": "Cycle fuel consumption"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "E0F1"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "E0F1"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_DPF_DIFF_P", "path": "Engine", "fmt": {"bix": 248, "len": 8, "max": 999.9935, "min": -100, "mul": 4.3137, "add": -100, "unit": "unknown" }, "name": "Diesel particulate filter differential pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E0F2"}, "freq": 1, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E0F2"}, "freq": 1, "filter": { "from": 2018 }, "dbgfilter": { "to": 2018, "years": [2020, 2021, 2022, 2023, 2025], "from": 2027 },
   "signals": [
     {"id": "SANTAFE_DPF_SUCCESSFUL_REGEN", "path": "Engine", "fmt": {"bix": 432, "len": 16, "max": 65535,                              "unit": "scalar"  }, "name": "Diesel particulate filter successful regeneration count"},
     {"id": "SANTAFE_BOOST_P",              "path": "Engine", "fmt": {"bix": 496, "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "unknown" }, "name": "Boost pressure"}
@@ -557,7 +557,7 @@
     {"id": "SANTAFE_FUEL_T",                      "path": "Fuel",     "fmt": {"bix": 216, "len": 8, "max": 149.9965, "min": -50, "mul": 7843,  "div": 10000, "add": -50, "unit": "celsius"      }, "name": "Fuel temperature"},
     {"id": "SANTAFE_ENG_ACT_TQ",                  "path": "Engine",   "fmt": {"bix": 240, "len": 8, "max": 599.9895,             "mul": 23529, "div": 10000,             "unit": "newtonMeters" }, "name": "Engine, actual torque"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "ED02"}, "freq": 5, "dbgfilter": { "to": 2019, "from": 2021 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "ED02"}, "freq": 5, "filter": { "from": 2018 }, "dbgfilter": { "to": 2019, "from": 2021 },
   "signals": [
     {"id": "SANTAFE_EOT_V2", "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 251, "min": -4, "add": -4, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
