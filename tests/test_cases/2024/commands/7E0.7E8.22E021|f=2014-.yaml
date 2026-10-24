@@ -3,7 +3,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.22027
     SANTAFE_WG_DUTY: 73.26971
-    SANTAFE_WG_POS: -14.82545
+    SANTAFE_WG_POS: -2429
     SANTAFE_WG_SP: 0.41504
     SANTAFE_WG_V: 3.69446
   response: |-
@@ -20,7 +20,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.30318
     SANTAFE_WG_DUTY: 24.1089
-    SANTAFE_WG_POS: 16.72364
+    SANTAFE_WG_POS: 2740
     SANTAFE_WG_SP: 96.47834
     SANTAFE_WG_V: 3.74024
   response: |-
@@ -37,7 +37,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.32805
     SANTAFE_WG_DUTY: 23.8434
-    SANTAFE_WG_POS: 19.39699
+    SANTAFE_WG_POS: 3178
     SANTAFE_WG_SP: 97.6197
     SANTAFE_WG_V: 3.73902
   response: |-
@@ -54,7 +54,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.33634
     SANTAFE_WG_DUTY: 24.17299
-    SANTAFE_WG_POS: 21.74684
+    SANTAFE_WG_POS: 3563
     SANTAFE_WG_SP: 98.37043
     SANTAFE_WG_V: 3.77808
   response: |-
@@ -71,7 +71,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.35292
     SANTAFE_WG_DUTY: 24.01735
-    SANTAFE_WG_POS: 20.41017
+    SANTAFE_WG_POS: 3344
     SANTAFE_WG_SP: 97.0948
     SANTAFE_WG_V: 3.74024
   response: |-
@@ -88,7 +88,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.469
     SANTAFE_WG_DUTY: 23.79457
-    SANTAFE_WG_POS: 19.65944
+    SANTAFE_WG_POS: 3221
     SANTAFE_WG_SP: 99.3531
     SANTAFE_WG_V: 3.77625
   response: |-
@@ -105,7 +105,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 99.64124
     SANTAFE_WG_DUTY: 74.37444
-    SANTAFE_WG_POS: -70.30034
+    SANTAFE_WG_POS: -11518
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.74207
   response: |-
@@ -122,7 +122,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 100.7854
     SANTAFE_WG_DUTY: 74.89324
-    SANTAFE_WG_POS: -70.33696
+    SANTAFE_WG_POS: -11524
     SANTAFE_WG_SP: -1.5625
     SANTAFE_WG_V: 3.72925
   response: |-
@@ -139,7 +139,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 104.47489
     SANTAFE_WG_DUTY: 74.62469
-    SANTAFE_WG_POS: -71.87505
+    SANTAFE_WG_POS: -11776
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.78845
   response: |-
@@ -156,7 +156,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 95.63668
     SANTAFE_WG_DUTY: 76.21465
-    SANTAFE_WG_POS: -68.81719
+    SANTAFE_WG_POS: -11275
     SANTAFE_WG_SP: -1.5625
     SANTAFE_WG_V: 3.82508
   response: |-
@@ -173,7 +173,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.3695
     SANTAFE_WG_DUTY: 24.02345
-    SANTAFE_WG_POS: 20.64821
+    SANTAFE_WG_POS: 3383
     SANTAFE_WG_SP: 97.55866
     SANTAFE_WG_V: 3.74695
   response: |-
@@ -190,7 +190,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 101.95443
     SANTAFE_WG_DUTY: 36.36477
-    SANTAFE_WG_POS: 169.84265
+    SANTAFE_WG_POS: 27827
     SANTAFE_WG_SP: 72.1253
     SANTAFE_WG_V: 3.73657
   response: |-
@@ -207,7 +207,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 103.7287
     SANTAFE_WG_DUTY: 75.40594
-    SANTAFE_WG_POS: -71.86284
+    SANTAFE_WG_POS: -11774
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.75977
   response: |-
@@ -224,7 +224,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 103.94427
     SANTAFE_WG_DUTY: 75.67449
-    SANTAFE_WG_POS: -71.86895
+    SANTAFE_WG_POS: -11775
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.75428
   response: |-
@@ -241,7 +241,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 106.66372
     SANTAFE_WG_DUTY: 74.35613
-    SANTAFE_WG_POS: -71.86284
+    SANTAFE_WG_POS: -11774
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.72925
   response: |-
@@ -258,7 +258,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 95.52061
     SANTAFE_WG_DUTY: 23.51686
-    SANTAFE_WG_POS: 16.74806
+    SANTAFE_WG_POS: 2744
     SANTAFE_WG_SP: 96.83845
     SANTAFE_WG_V: 3.74878
   response: |-
@@ -275,7 +275,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 95.65327
     SANTAFE_WG_DUTY: 54.11381
-    SANTAFE_WG_POS: 0.77515
+    SANTAFE_WG_POS: 127
     SANTAFE_WG_SP: 39.94143
     SANTAFE_WG_V: 3.72254
   response: |-
@@ -292,7 +292,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.62652
     SANTAFE_WG_DUTY: 24.13637
-    SANTAFE_WG_POS: 15.67994
+    SANTAFE_WG_POS: 2569
     SANTAFE_WG_SP: 97.33283
     SANTAFE_WG_V: 3.74878
   response: |-
@@ -309,7 +309,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 98.37272
     SANTAFE_WG_DUTY: 65.52129
-    SANTAFE_WG_POS: -1.39771
+    SANTAFE_WG_POS: -229
     SANTAFE_WG_SP: 17.88331
     SANTAFE_WG_V: 3.69141
   response: |-
@@ -326,7 +326,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 98.89505
     SANTAFE_WG_DUTY: 73.70611
-    SANTAFE_WG_POS: 5.05371
+    SANTAFE_WG_POS: 828
     SANTAFE_WG_SP: 2.33765
     SANTAFE_WG_V: 3.73474
   response: |-
@@ -343,7 +343,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 101.37406
     SANTAFE_WG_DUTY: 74.35613
-    SANTAFE_WG_POS: -70.33086
+    SANTAFE_WG_POS: -11523
     SANTAFE_WG_SP: -1.5625
     SANTAFE_WG_V: 3.73108
   response: |-
@@ -360,7 +360,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 101.65595
     SANTAFE_WG_DUTY: 25.79042
-    SANTAFE_WG_POS: 26.91652
+    SANTAFE_WG_POS: 4410
     SANTAFE_WG_SP: 96.2342
     SANTAFE_WG_V: 3.80432
   response: |-
@@ -377,7 +377,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 102.58454
     SANTAFE_WG_DUTY: 74.35613
-    SANTAFE_WG_POS: -70.31865
+    SANTAFE_WG_POS: -11521
     SANTAFE_WG_SP: -1.5625
     SANTAFE_WG_V: 3.73352
   response: |-
@@ -394,7 +394,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 98.83701
     SANTAFE_WG_DUTY: 74.35613
-    SANTAFE_WG_POS: -71.66143
+    SANTAFE_WG_POS: -11741
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.71277
   response: |-
@@ -411,7 +411,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 98.83701
     SANTAFE_WG_DUTY: 69.25359
-    SANTAFE_WG_POS: 25.10378
+    SANTAFE_WG_POS: 4113
     SANTAFE_WG_SP: 11.46241
     SANTAFE_WG_V: 3.77991
   response: |-
@@ -428,7 +428,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 108.21413
     SANTAFE_WG_DUTY: 74.3836
-    SANTAFE_WG_POS: -70.25762
+    SANTAFE_WG_POS: -11511
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.73108
   response: |-
@@ -445,7 +445,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 115.22003
     SANTAFE_WG_DUTY: 74.89324
-    SANTAFE_WG_POS: -71.7896
+    SANTAFE_WG_POS: -11762
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.73963
   response: |-
@@ -462,7 +462,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 93.48102
     SANTAFE_WG_DUTY: 23.67555
-    SANTAFE_WG_POS: 4.8523
+    SANTAFE_WG_POS: 795
     SANTAFE_WG_SP: 93.91486
     SANTAFE_WG_V: 3.66272
   response: |-
@@ -479,7 +479,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 93.52248
     SANTAFE_WG_DUTY: 72.6563
-    SANTAFE_WG_POS: 0.99487
+    SANTAFE_WG_POS: 163
     SANTAFE_WG_SP: 1.5625
     SANTAFE_WG_V: 3.72681
   response: |-
@@ -496,7 +496,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 115.30294
     SANTAFE_WG_DUTY: 71.24944
-    SANTAFE_WG_POS: -0.72632
+    SANTAFE_WG_POS: -119
     SANTAFE_WG_SP: 6.87256
     SANTAFE_WG_V: 3.7677
   response: |-
@@ -513,7 +513,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 145.88014
     SANTAFE_WG_DUTY: 74.00213
-    SANTAFE_WG_POS: -22.1985
+    SANTAFE_WG_POS: -3637
     SANTAFE_WG_SP: 0.53711
     SANTAFE_WG_V: 3.7439
   response: |-
@@ -530,7 +530,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 93.58052
     SANTAFE_WG_DUTY: 24.21572
-    SANTAFE_WG_POS: 7.40967
+    SANTAFE_WG_POS: 1214
     SANTAFE_WG_SP: 96.45393
     SANTAFE_WG_V: 3.73963
   response: |-
@@ -547,7 +547,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 100.01433
     SANTAFE_WG_DUTY: 74.62469
-    SANTAFE_WG_POS: -70.31865
+    SANTAFE_WG_POS: -11521
     SANTAFE_WG_SP: -1.5625
     SANTAFE_WG_V: 3.72864
   response: |-
@@ -564,7 +564,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 93.68001
     SANTAFE_WG_DUTY: 24.11806
-    SANTAFE_WG_POS: 9.69239
+    SANTAFE_WG_POS: 1588
     SANTAFE_WG_SP: 97.16804
     SANTAFE_WG_V: 3.73657
   response: |-
@@ -581,7 +581,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 93.81266
     SANTAFE_WG_DUTY: 72.6563
-    SANTAFE_WG_POS: 1.15357
+    SANTAFE_WG_POS: 189
     SANTAFE_WG_SP: 1.5625
     SANTAFE_WG_V: 3.73291
   response: |-
@@ -598,7 +598,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 93.76292
     SANTAFE_WG_DUTY: 23.79457
-    SANTAFE_WG_POS: 15.05128
+    SANTAFE_WG_POS: 2466
     SANTAFE_WG_SP: 96.27082
     SANTAFE_WG_V: 3.70056
   response: |-
@@ -615,7 +615,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 96.83059
     SANTAFE_WG_DUTY: 55.63664
-    SANTAFE_WG_POS: 25.79958
+    SANTAFE_WG_POS: 4227
     SANTAFE_WG_SP: 37.2803
     SANTAFE_WG_V: 3.7262
   response: |-
@@ -632,7 +632,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 94.06139
     SANTAFE_WG_DUTY: 71.7835
-    SANTAFE_WG_POS: -60.71782
+    SANTAFE_WG_POS: -9948
     SANTAFE_WG_SP: 4.86451
     SANTAFE_WG_V: 3.69934
   response: |-
@@ -649,7 +649,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 104.0023
     SANTAFE_WG_DUTY: 74.35613
-    SANTAFE_WG_POS: -71.84453
+    SANTAFE_WG_POS: -11771
     SANTAFE_WG_SP: 0
     SANTAFE_WG_V: 3.74878
   response: |-
@@ -666,7 +666,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 94.1526
     SANTAFE_WG_DUTY: 23.70912
-    SANTAFE_WG_POS: 6.02417
+    SANTAFE_WG_POS: 987
     SANTAFE_WG_SP: 96.63093
     SANTAFE_WG_V: 3.74024
   response: |-
@@ -683,7 +683,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 155.91226
     SANTAFE_WG_DUTY: 73.0805
-    SANTAFE_WG_POS: -3.72315
+    SANTAFE_WG_POS: -610
     SANTAFE_WG_SP: 2.20947
     SANTAFE_WG_V: 3.73902
   response: |-
@@ -700,7 +700,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 156.79939
     SANTAFE_WG_DUTY: 69.03691
-    SANTAFE_WG_POS: 18.9026
+    SANTAFE_WG_POS: 3097
     SANTAFE_WG_SP: 11.34644
     SANTAFE_WG_V: 3.74085
   response: |-
@@ -717,7 +717,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 94.37645
     SANTAFE_WG_DUTY: 23.51686
-    SANTAFE_WG_POS: 17.19972
+    SANTAFE_WG_POS: 2818
     SANTAFE_WG_SP: 98.43147
     SANTAFE_WG_V: 3.73719
   response: |-
@@ -734,7 +734,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 97.28659
     SANTAFE_WG_DUTY: 74.35613
-    SANTAFE_WG_POS: -70.398
+    SANTAFE_WG_POS: -11534
     SANTAFE_WG_SP: -1.5625
     SANTAFE_WG_V: 3.72925
   response: |-
@@ -751,7 +751,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 94.26038
     SANTAFE_WG_DUTY: 23.91054
-    SANTAFE_WG_POS: 18.50587
+    SANTAFE_WG_POS: 3032
     SANTAFE_WG_SP: 96.61262
     SANTAFE_WG_V: 3.7378
   response: |-
@@ -768,7 +768,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 94.89879
     SANTAFE_WG_DUTY: 73.43755
-    SANTAFE_WG_POS: 1.33667
+    SANTAFE_WG_POS: 219
     SANTAFE_WG_SP: 1.5625
     SANTAFE_WG_V: 3.75489
   response: |-
@@ -785,7 +785,7 @@ test_cases:
 - expected_values:
     SANTAFE_TB_PRES: 94.82417
     SANTAFE_WG_DUTY: 24.21266
-    SANTAFE_WG_POS: 16.09498
+    SANTAFE_WG_POS: 2637
     SANTAFE_WG_SP: 95.78254
     SANTAFE_WG_V: 3.70117
   response: |-
