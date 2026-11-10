@@ -3,7 +3,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -18,7 +17,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -33,7 +31,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -48,7 +45,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -63,7 +59,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -78,7 +73,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -93,7 +87,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -108,7 +101,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -123,7 +115,6 @@ test_cases:
 - expected_values:
     SANTAFE_CLUTCH_1_T: 300
     SANTAFE_CLUTCH_2_T: 300
-    SANTAFE_GEAR_CUR: 14
     SANTAFE_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
